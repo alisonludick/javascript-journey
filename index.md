@@ -1,6 +1,8 @@
 # My Javascript Journey
 
-I just wrote my first piece of code and I'm wondering if this is the correct way to publish it:
+I set out to focus on JavaScript fundamentals and this comes from the book You Don't Know JS: Up and Going. Such an excellent resource!
+At the end of the first chapter, a challenge was set to write a program that calculated the total price of a cell phone, accessories and to include tax in that calculation; and also bare in mind the limitation of your bank balance. 
+The solution is way better than mine, and I'd encourage to work through the book on your own to see it; but here is my attempt at writing that program:
 
 ```
 var taxRate = 0.08
