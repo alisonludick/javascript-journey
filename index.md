@@ -13,15 +13,15 @@ With that in mind, the first course I chose was Coursera's [Programming Foundati
 
 The second resource, which compliments my learning in a great way and has been equally invaluable, is Kyle Simpson's book [You Don't Know JS: Up and Going](https://github.com/getify/You-Dont-Know-JS/blob/master/up%20%26%20going/ch1.md). It is exceptionally well-written, easy to understand, and explains concepts very clearly.    
 
-At the end of the first chapter, a challenge was set to write a program that calculated the total price of a cell phone, accessories and to include tax in that calculation; and also bare in mind the limitation of your bank balance.   
+At the end of the first chapter, a challenge was set to write a program that calculated the total price of a cell phone plus accessories and to include tax in that calculation; and also bear in mind the limitation of your bank balance.   
 
 The solution in the book is much better than mine, and I'd encourage to work through the book on your own to practice it; but here is my attempt at writing that program:  
 
 In the first 4 lines I declared the *variables* I needed in my program, namely:
-> *taxRate*,
-> *phonePrice*,
-> *accessPrice*,
-> *bankBal*  
+- *taxRate*,
+- *phonePrice*,
+- *accessPrice*,
+- *bankBal*  
 
 The following 2 lines I included after I wrote the program to see whether an increase in price would affect the message that was included with each condition. And it did!  
 
