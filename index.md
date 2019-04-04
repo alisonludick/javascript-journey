@@ -15,15 +15,15 @@ The second resource, which compliments my learning in a great way and has been e
 
 At the end of the first chapter, a challenge was set to write a program that calculated the total price of a cell phone plus accessories and to include tax in that calculation; and also bear in mind the limitation of your bank balance.   
 
-The solution in the book is much better than mine, and I'd encourage to work through the book on your own to practice it; but here is my attempt at writing that program:  
+The solution in the book is much better than mine, and I'd encourage you to work through the book on your own to practice it; but here is my attempt at writing that program:  
 
 In the first 4 lines I declared the *variables* I needed in my program, namely:
-- *taxRate*,
-- *phonePrice*,
-- *accessPrice*,
+- *taxRate*
+- *phonePrice*
+- *accessPrice*
 - *bankBal*  
 
-The following 2 lines I included after I wrote the program to see whether an increase in price would affect the message that was included with each condition. And it did!  
+The following 2 lines I included after I wrote the program to see whether an increase in price would affect the message that was included with each condition. And it did! The increase in price/number of items made the total spend more than that of the bank balance, which incurred the message that there was not enough money. 
 
 The program itself reads:  
 >To calculate the total amount spent...  
