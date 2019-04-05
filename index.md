@@ -21,6 +21,7 @@ In the first 4 lines I declared the *variables* I needed in my program, namely:
 - *taxRate*
 - *phonePrice*
 - *accessPrice*
+- *purchases* 
 - *bankBal*  
 
 The following 2 lines I included after I wrote the program to see whether an increase in price would affect the message that was included with each condition. And it did! The increase in price/number of items made the total spend more than that of the bank balance, which incurred the message that there was not enough money. 
@@ -54,4 +55,4 @@ function totalSpend() {
 console.log(totalSpend()); 
 ```
 
-By the way, a great tip I learned from Kyle Simpson's book is to type about:blank into the address bar, open the developer tools console, and use that to run your JavaScript code. It's a great canvas on which to practice the code that you're learning. So go ahead and copy and paste my above code into about:blank and you'll see what it returns when you hit enter. 
+By the way, a great tip I learned from Kyle Simpson's book is to type `about:blank` into the address bar of your favourite web browser, open the developer tools console, and use that to run your JavaScript code. It's a great canvas on which to practice the code that you're learning. So, go ahead and copy and paste my above code into about:blank and you'll see what it returns when you hit enter. 
