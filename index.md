@@ -18,7 +18,7 @@ At the end of the first chapter, a challenge was set to write a program that cal
 The solution in the book is much better than mine, and I'd encourage you to work through the book on your own to practice it; but here is my attempt at writing that program:  
 
 In the first 4 lines I declared the *constiables* I needed in my program, namely:
-- *taxRate (the cost of goods with tax included)*
+- *taxRate (the rate after tax is included)*
 - *phonePrice (the cost of the phone before tax)*
 - *accessPrice (the cost of the accessory before tax)*
 - *numberOfGoods (the units of phone/accessories purchased)*
