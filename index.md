@@ -18,13 +18,12 @@ At the end of the first chapter, a challenge was set to write a program that cal
 The solution in the book is much better than mine, and I'd encourage you to work through the book on your own to practice it; but here is my attempt at writing that program:  
 
 In the first 4 lines I declared the *variables* I needed in my program, namely:
-- *taxRate*
-- *phonePrice*
-- *accessPrice*
-- *purchases* 
-- *bankBal*  
-
-The following 2 lines I included after I wrote the program to see whether an increase in price would affect the message that was included with each condition. And it did! The increase in price/number of items made the total spend more than that of the bank balance, which incurred the message that there was not enough money. 
+- *taxRate* (the cost of goods with tax included)
+- *phonePrice* (the cost of the phone before tax)
+- *accessPrice* (the cost of the accessory before tax)
+- *numberOfGoods (the units of phone/accessories purchased)
+- *purchases* (the total cost of all phones and accessories before tax)
+- *bankBal*  (the amount in the bank)
 
 The program itself reads:  
 >To calculate the total amount spent...  
@@ -37,11 +36,12 @@ The program itself reads:
 In JavaScript the code is written as:  
 
 ```
-var taxRate = 1.08
-var phonePrice = 120.75
-var accessPrice = 50.89
-var purchases = phonePrice + accessPrice
-var bankBal = 500.50
+var taxRate = 1.08; 
+var phonePrice = 120.75; 
+var accessPrice = 50.89; 
+var numberOfGoods = 3; 
+var purchases = numberOfGoods * (phonePrice + accessPrice); 
+var bankBal = 500.50; 
 
 function totalSpend() {
     var spend = purchases * taxRate; 
