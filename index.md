@@ -17,7 +17,7 @@ At the end of the first chapter, a challenge was set to write a program that cal
 
 The solution in the book is much better than mine, and I'd encourage you to work through the book on your own to practice it; but here is my attempt at writing that program:  
 
-In the first 4 lines I declared the *constiables* I needed in my program, namely:
+In the first 4 lines I declared the *variables* I needed in my program, namely:
 - *taxRate (the rate after tax is included)*
 - *phonePrice (the cost of the phone before tax)*
 - *accessPrice (the cost of the accessory before tax)*
@@ -36,15 +36,15 @@ The program itself reads:
 In JavaScript the code is written as:  
 
 ```
-const taxRate = 1.08; 
-const phonePrice = 120.75; 
-const accessPrice = 50.89; 
-const numberOfGoods = 3; 
-const purchases = numberOfGoods * (phonePrice + accessPrice); 
-const bankBal = 500.50; 
+var taxRate = 1.08; 
+var phonePrice = 120.75; 
+var accessPrice = 50.89; 
+var numberOfGoods = 3; 
+var purchases = numberOfGoods * (phonePrice + accessPrice); 
+var bankBal = 500.50; 
 
 function totalSpend() {
-    const spend = purchases * taxRate; 
+    var spend = purchases * taxRate; 
     console.log("$"+ Math.abs(spend.toFixed(2)));
     if (spend <= bankBal) {
         return "I can afford this purchase :)"; 
